@@ -36,6 +36,22 @@ main{
     position: relative;
     top: 80px;
     left: 22px;
-    height: 472px;
-    width: 270px;
+    height: 470px;
+    width: 268px;
+}
+
+#rs{
+    text-align: right;
+}
+
+#rs img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.541);
+}
+
+#rs img:hover{
+    transform: translate(-4px, -4px);
+    transition: transform .25s;
 }
